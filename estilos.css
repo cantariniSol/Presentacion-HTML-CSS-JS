@@ -1,0 +1,103 @@
+/*-------- Estilos Generales ---------*/
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+
+    background: rgb(243,243,243);
+    background: linear-gradient(180deg, rgba(243,243,243,1) 0%, rgba(245,240,227,1) 26%, rgba(246,238,201,1) 73%);
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    line-height: 1.8em;
+    background-image: none;
+    background-position: top left;
+    background-size: auto;
+    background-attachment: scroll;
+    background-repeat: repeat;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+a:hover{ text-decoration: none;} /*cuando le paso el cursor no se pongan la linea*/
+
+
+.contenedor{
+    margin: 10px 0;
+    padding:  70px 70px;
+    
+}
+
+/*--------- Header ----------*/
+
+header{
+    float: left;    
+    width:100%;
+    overflow: hidden;
+    
+    
+}
+
+header .logo{
+   float: left;
+   width: 100%;
+}
+
+header .logo h1{   
+    width: 500px;
+    
+}
+
+header .logo h1 a{
+
+    font-size: 44px;
+    color: #393e46;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;  
+    text-align: center;
+    line-height: 1.5em;
+}
+
+header .logo h1 a:hover{
+    cursor: pointer;
+    color: #b7b56e; /*Efecto de cambio de color cuado se pasa el muase*/
+}
+
+header .logo p{
+    width:350px;
+    padding: 0.1em;
+    color: #d4ceb0;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    
+}
+
+/*---------- Menú ---------*/
+header .logo .main-nav{
+    line-height: 4em;
+    float:right;
+    text-align: right;   
+}
+
+
+header  .main-nav ul li{
+    display: inline;
+    font-family: 'Raleway', sans-serif;   
+   
+}
+
+header .main-nav ul li a{
+    color: #333333;
+    font-size: 14px;
+    padding: 15px;
+    font-weight: 200;
+    
+}
+header .main-nav ul li a:hover{
+    color:#b7b56e;
+    text-decoration: none;   
+}
